@@ -14,7 +14,7 @@
 #include "memlib.h"
 #include "config.h"
 
-/* private variables */
+/* private variables (전역변수)*/
 static char *mem_start_brk;  /* points to first byte of heap */
 static char *mem_brk;        /* points to last byte of heap */
 static char *mem_max_addr;   /* largest legal heap address */ 
